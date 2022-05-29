@@ -1,0 +1,32 @@
+4
+101 11
+100 10
+11 101
+10 100
+
+1 2 1 2
+
+
+46 kg 155 cm 5 
+60 kg 175 cm 4 
+58 kg 183 cm 2 
+55 kg 185 cm 1 
+88 kg 186 cm 3
+
+
+
+
+				if (o1.weight == o2.weight) {
+					return o1.height - o2.height;
+				} else {
+					return o1.weight - o2.weight;
+				}
+			}
+
+
+				if(o1.weight<o2.weight) {
+					return 1;
+				}else 
+					return o2.height-o1.height;
+				
+			}
