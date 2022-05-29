@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.submenu_type{
+	list-style: none;
+}
+
+
+.submenu_type>li{
+	margin-top: 50px;
+}
+
+.submenu_type>li>a{
+	
+	display: block;
+	width: 130px;
+	text-decoration: none;
+	font-family: 굴림체;
+	font-weight: bold;
+	font-size: 14pt;
+	color: #004080;
+	
+	/* border: 1px solid red; */
+	
+}
+	
+.submenu_type>li>a:hover {
+	color: red;
+}
